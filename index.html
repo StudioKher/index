@@ -1,5 +1,4 @@
-<!DOCTYPE html><html lang="en">
-<head>
+<!DOCTYPE html><html lang="en"><head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Studio Kher</title>
@@ -19,10 +18,19 @@
       text-align: center;
     }
     h1 {
-      font-size: 3rem;
+      font-size: 3.5rem;
       margin: 0;
+      font-family: 'Playfair Display', serif;
       font-weight: 700;
-      font-style: normal;
+      font-style: italic;
+      letter-spacing: 1px;
+      color: #1c1c1c;
+      animation: sparkle 2.5s infinite ease-in-out;
+    }
+    @keyframes sparkle {
+      0% { text-shadow: 0 0 5px #fff5cc, 0 0 10px #ffecb3; }
+      50% { text-shadow: 0 0 10px #ffe066, 0 0 20px #ffd700; }
+      100% { text-shadow: 0 0 5px #fff5cc, 0 0 10px #ffecb3; }
     }
     nav {
       margin-top: 1rem;
@@ -77,35 +85,40 @@
       <a href="#shop">Shop</a>
       <a href="#contact">Contact</a>
     </nav>
-  </header>  <section id="hero">
+  </header>
+  <section id="hero">
     <img src="https://via.placeholder.com/900x500?text=Your+Art+Here" alt="Studio Kher Art" class="hero-img" />
     <p>Welcome to Studio Kher — Original artwork created with love. Explore my handmade pieces and soulful art.</p>
     <a href="#shop" class="btn">Shop Now</a>
-  </section>  <section id="about">
+  </section>
+  <section id="about">
     <h2>About the Artist</h2>
     <p>Hi, I'm Irya — the hands and heart behind Studio Kher. My journey with art began when I was just four years old, and it has been a passionate part of my life ever since. Over the years, I’ve explored various mediums including shading, painting, colour pencil, charcoal, oil pastel, and soft pastel. Every piece I create is handmade with care and a love for detail.</p>
     <blockquote>
       "Art is not what you see, but what you make others see." — Edgar Degas
     </blockquote>
-  </section>  <section id="favourites">
-  <h2>My Favourite Artworks</h2>
-  <div>
-    <img src="https://studiokher.github.io/index/IMG-20250511-WA0000.jpg" alt="Hanuman Art" width="300">
-    <img src="https://studiokher.github.io/index/IMG-20250701-WA0001.jpg" alt="Krishna Art" width="300">
-    <img src="https://studiokher.github.io/index/IMG-20250701-WA0003.jpg" alt="Shiva Art" width="300">
-    <img src="https://studiokher.github.io/index/Screenshot_20250505_183946_Instagram.jpg" alt="Ganesha Art" width="300">
-  </div>
   </section>
-</section>  <section id="shop">
-  <h2>Shop Artwork</h2>
-  <p>A curated collection of my handmade artwork will be available here soon. Prices will be listed in INR. Stay tuned!</p>
-  <p>For commissions or early inquiries, please email <a href="mailto:Studio.Kher@gmail.com">Studio.Kher@gmail.com</a></p>
-</section>  <section id="contact">
+  <section id="favourites">
+    <h2>My Favourite Artworks</h2>
+    <div>
+      <img src="https://studiokher.github.io/index/IMG-20250511-WA0000.jpg" alt="Hanuman Art" width="300">
+      <img src="https://studiokher.github.io/index/IMG-20250701-WA0001.jpg" alt="Krishna Art" width="300">
+      <img src="https://studiokher.github.io/index/IMG-20250701-WA0003.jpg" alt="Shiva Art" width="300">
+      <img src="https://studiokher.github.io/index/Screenshot_20250505_183946_Instagram.jpg" alt="Ganesha Art" width="300">
+    </div>
+  </section>
+  <section id="shop">
+    <h2>Shop Artwork</h2>
+    <p>A curated collection of my handmade artwork will be available here soon. Prices will be listed in INR. Stay tuned!</p>
+    <p>For commissions or early inquiries, please email <a href="mailto:Studio.Kher@gmail.com">Studio.Kher@gmail.com</a></p>
+  </section>
+  <section id="contact">
     <h2>Contact</h2>
     <p>For inquiries, collaborations, or commissions:</p>
     <p>Email: <a href="mailto:Studio.Kher@gmail.com">Studio.Kher@gmail.com</a></p>
     <p>Instagram: <a href="https://www.instagram.com/iamnotirya.k?igsh=NjVqMGI5eThqOWFk" target="_blank">@iamnotirya.k</a></p>
-  </section>  <footer>
+  </section>
+  <footer>
     <p>&copy; 2025 Studio Kher. All rights reserved.</p>
   </footer>
 </body>
